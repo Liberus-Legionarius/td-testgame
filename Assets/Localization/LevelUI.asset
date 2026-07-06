@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: LevelUI
+  m_EditorClassIdentifier: Unity.Localization.Editor::UnityEditor.Localization.StringTableCollection
+  m_SharedTableData: {fileID: 11400000, guid: 53dc01bac49c4ed49bd5c3292515e2fa, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: b469179a134e36140b656451b57974a4, type: 2}
+  - {fileID: 11400000, guid: 63c19d37a055ae9469ab2d2d933473f3, type: 2}
+  - {fileID: 11400000, guid: 64442b9623d83f04cb0c5c71a5dc9297, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

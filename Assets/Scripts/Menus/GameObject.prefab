@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6108286822277471519
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5243110851103169862}
+  - component: {fileID: 4991068074589396202}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5243110851103169862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108286822277471519}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.99509, y: 33.68624, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4991068074589396202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108286822277471519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa922057e4b4fd34fb2405574b315300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenuController
+  darkness: {fileID: 0}
+  brightness: {fileID: 0}
+  infoCanvas: {fileID: 0}
+  submenus:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  yesNo: {fileID: 8026010891345563300, guid: 156b7155f7e738b4797aeeaeb8002d5f, type: 3}
+  towers:
+  - {fileID: 3129302065394342644, guid: 1d0297bfe5eaae0478d9505070f5d89b, type: 3}
+  - {fileID: 3129302065394342644, guid: 3d693b09628cd214f99b1af4beffad19, type: 3}
+  - {fileID: 3129302065394342644, guid: 91b81fb181abefe43a5630603696ddab, type: 3}
+  - {fileID: 3129302065394342644, guid: 0bd5072f71d622f4d8fafd2b9d8a2570, type: 3}
+  - {fileID: 3129302065394342644, guid: ab24a09f68219824eb9181fa34a482ec, type: 3}
+  enemies:
+  - {fileID: 5324222401864381296, guid: 6ad99c4f4ee44f54991eb747237bcf76, type: 3}
+  - {fileID: 5324222401864381296, guid: 48bda4b1a28cb0b40b413297548d3922, type: 3}
+  - {fileID: 5324222401864381296, guid: cae7b49ba07f15d4184b1fa068f430e4, type: 3}
+  - {fileID: 5324222401864381296, guid: cbb011757ad0e5b4c8c045aa2bd52863, type: 3}
+  - {fileID: 5324222401864381296, guid: f64ed6f28ce621643a424d4b46efd0e5, type: 3}
+  - {fileID: 5324222401864381296, guid: f4649d0c25b1eda4ba53f935bea837cd, type: 3}
+  save: {fileID: 6196808782456882742, guid: 3303a93cb301dcc4b8c8864f7eb43cd5, type: 3}
+  whereSaves: {fileID: 0}
+  buttons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  saveCreate: {fileID: 0}
+  defensives:
+  - {fileID: 1186313370448146298, guid: 2c268d119a96ad341b3fab5c0d1fe05d, type: 3}
+  - {fileID: 1186313370448146298, guid: 3bce7b5add999464a9d6c03e131d7349, type: 3}
+  - {fileID: 1186313370448146298, guid: cedefaf3cc60c9c48820cc68118dc995, type: 3}
+  levelsGoal: 90010000dc050000d0070000d007000088130000
+  d:
+  - m_TableReference:
+      m_TableCollectionName: GUID:9032477836648a641807bf185a860529
+    m_TableEntryReference:
+      m_KeyId: 25268397273088
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:9032477836648a641807bf185a860529
+    m_TableEntryReference:
+      m_KeyId: 25271354257408
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:9032477836648a641807bf185a860529
+    m_TableEntryReference:
+      m_KeyId: 25272457359360
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  approveDesc:
+  - m_TableReference:
+      m_TableCollectionName: GUID:eb294fa5261894344b9df88b71ffcf42
+    m_TableEntryReference:
+      m_KeyId: 338704199680
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  - m_TableReference:
+      m_TableCollectionName: GUID:eb294fa5261894344b9df88b71ffcf42
+    m_TableEntryReference:
+      m_KeyId: 13809217536
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []
