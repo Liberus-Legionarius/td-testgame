@@ -234,6 +234,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7991360323520359232
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -279,6 +280,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
+  m_MaskInteraction: 0
   m_Sprite: {fileID: 6893199346399291125, guid: 724a07e9a361efa49a3f48c624d502cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -288,7 +290,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1488608793813831616
 MonoBehaviour:
@@ -335,9 +336,13 @@ MonoBehaviour:
 
 
     {0}'
+  - "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0438 \u043D\u0438\u0447\u0435\u043C
+    \u043D\u0435 \u043F\u0440\u0438\u043C\u0435\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+    \u0437\u043E\u043C\u0431\u0438.\r\n\r\n{0}"
   title:
   - "\u0417\u0432\u0438\u0447\u0430\u0439\u043D\u0438\u0439 \u0437\u043E\u043C\u0431i"
   - Common Zombie
+  - "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0437\u043E\u043C\u0431\u0438"
 --- !u!50 &-3011160267239266064
 Rigidbody2D:
   serializedVersion: 5
@@ -536,6 +541,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

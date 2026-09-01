@@ -479,6 +479,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1217,6 +1218,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1522,6 +1524,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1658,6 +1661,28 @@ MonoBehaviour:
 
     Level 5: Armor modifier 1.5, 5% recovery
     per second after 2.5 seconds of rest.'
+  - "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 \u0436\u0438\u043B\u0438\u0449\u043D\u043E\u0433\u043E
+    \u0441\u0435\u043A\u0442\u043E\u0440\u0430:\r\n1 \u0443\u0440\u043E\u0432\u0435\u043D\u044C:
+    \u043C\u043E\u0434\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440 \u0431\u0440\u043E\u043D\u0438
+    1.1, \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435
+    1% \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443 \u043F\u043E\u0441\u043B\u0435
+    10 \u0441\u0435\u043A\u0443\u043D\u0434 \u043F\u043E\u043A\u043E\u044F.\r\n2
+    \u0443\u0440\u043E\u0432\u0435\u043D\u044C: \u043C\u043E\u0434\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440
+    \u0431\u0440\u043E\u043D\u0438 1.2, \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435
+    2% \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443 \u043F\u043E\u0441\u043B\u0435
+    10 \u0441\u0435\u043A\u0443\u043D\u0434 \u043F\u043E\u043A\u043E\u044F.\r\n3
+    \u0443\u0440\u043E\u0432\u0435\u043D\u044C: \u043C\u043E\u0434\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440
+    \u0431\u0440\u043E\u043D\u0438 1.3, \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435
+    3% \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443 \u043F\u043E\u0441\u043B\u0435
+    5 \u0441\u0435\u043A\u0443\u043D\u0434 \u043F\u043E\u043A\u043E\u044F.\r\n4 \u0443\u0440\u043E\u0432\u0435\u043D\u044C:
+    \u043C\u043E\u0434\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440 \u0431\u0440\u043E\u043D\u0438
+    1.4, \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435
+    4% \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443 \u043F\u043E\u0441\u043B\u0435
+    5 \u0441\u0435\u043A\u0443\u043D\u0434 \u043F\u043E\u043A\u043E\u044F.\r\n5 \u0443\u0440\u043E\u0432\u0435\u043D\u044C:
+    \u043C\u043E\u0434\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440 \u0431\u0440\u043E\u043D\u0438
+    1.5, \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435
+    5% \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443 \u043F\u043E\u0441\u043B\u0435
+    2.5 \u0441\u0435\u043A\u0443\u043D\u0434 \u043F\u043E\u043A\u043E\u044F."
 --- !u!114 &746732964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2986,6 +3011,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4026,6 +4052,19 @@ MonoBehaviour:
 
     Bonus: +25 coins with
     a 38% chance, +50 coins with a 12% chance'
+  - "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 \u043C\u0435\u0436\u0433\u0440\u0430\u0434\u043D\u043E\u0439
+    \u0438\u043D\u0444\u0440\u0430\u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u044B\r\n1
+    \u0443\u0440\u043E\u0432\u0435\u043D\u044C: +2.5 \u043C\u043E\u043D\u0435\u0442\u044B
+    \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443\r\n2 \u0443\u0440\u043E\u0432\u0435\u043D\u044C:
+    +5 \u043C\u043E\u043D\u0435\u0442 \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443\r\n3
+    \u0443\u0440\u043E\u0432\u0435\u043D\u044C: +7.5 \u043C\u043E\u043D\u0435\u0442
+    \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443\r\n4 \u0443\u0440\u043E\u0432\u0435\u043D\u044C:
+    +10 \u043C\u043E\u043D\u0435\u0442 \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443\r\n5
+    \u0443\u0440\u043E\u0432\u0435\u043D\u044C: +12.5 \u043C\u043E\u043D\u0435\u0442
+    \u0432 \u0441\u0435\u043A\u0443\u043D\u0434\u0443\r\n\u0411\u043E\u043D\u0443\u0441:
+    +25 \u043C\u043E\u043D\u0435\u0442 \u0441 \u0448\u0430\u043D\u0441\u043E\u043C
+    38% +50 \u043C\u043E\u043D\u0435\u0442 \u0441 \u0448\u0430\u043D\u0441\u043E\u043C
+    12%"
 --- !u!1 &1455575865
 GameObject:
   m_ObjectHideFlags: 0
@@ -4444,6 +4483,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4580,6 +4620,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4853,6 +4894,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4973,6 +5015,15 @@ MonoBehaviour:
 
     Level
     5: Total Cost -25%.'
+  - "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 \u043F\u0440\u043E\u043C\u044B\u0448\u043B\u0435\u043D\u043D\u043E\u0433\u043E
+    \u0441\u0435\u043A\u0442\u043E\u0440\u0430:\r\n1 \u0443\u0440\u043E\u0432\u0435\u043D\u044C:
+    \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0432\u0441\u0435\u0433\u043E
+    \u20135%.\r\n2 \u0443\u0440\u043E\u0432\u0435\u043D\u044C: \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C
+    \u0432\u0441\u0435\u0433\u043E \u201310%.\r\n3 \u0443\u0440\u043E\u0432\u0435\u043D\u044C:
+    \u0446\u0435\u043D\u0430 \u0432\u0441\u0435\u0433\u043E \u201315%.\r\n4 \u0443\u0440\u043E\u0432\u0435\u043D\u044C
+    \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C \u0432\u0441\u0435\u0433\u043E
+    \u201320%.\r\n5 \u0443\u0440\u043E\u0432\u0435\u043D\u044C: \u0441\u0442\u043E\u0438\u043C\u043E\u0441\u0442\u044C
+    \u201325%."
 --- !u!114 &1707379737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5190,6 +5241,13 @@ MonoBehaviour:
 
     active
     skills, and city turrets.'
+  - "\u0423\u043B\u0443\u0447\u0448\u0435\u043D\u0438\u0435 \u043D\u0430\u0443\u0447\u043D\u043E-\u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u0435\u043B\u044C\u0441\u043A\u043E\u0433\u043E
+    \u0441\u0435\u043A\u0442\u043E\u0440\u0430:\r\n\u041A\u0430\u0436\u0434\u044B\u0439
+    \u0443\u0440\u043E\u0432\u0435\u043D\u044C \u0443\u043B\u0443\u0447\u0448\u0430\u0435\u0442
+    \u043E\u0431\u043E\u0440\u043E\u043D\u043D\u044B\u0435 \u0441\u043E\u043E\u0440\u0443\u0436\u0435\u043D\u0438\u044F,
+    \u0434\u0440\u043E\u043D\u043E\u0432,\r\n\u0430\u043A\u0442\u0438\u0432\u043D\u044B\u0435
+    \u043D\u0430\u0432\u044B\u043A\u0438 \u0438 \u0433\u043E\u0440\u043E\u0434\u0441\u043A\u0438\u0435
+    \u0442\u0443\u0440\u0435\u043B\u0438."
 --- !u!114 &1851062618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5323,6 +5381,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5459,6 +5518,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -6178,6 +6238,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

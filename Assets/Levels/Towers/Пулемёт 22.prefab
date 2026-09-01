@@ -41,6 +41,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7527072786482172241
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -86,6 +87,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
+  m_MaskInteraction: 0
   m_Sprite: {fileID: -5225485861136550513, guid: a2f2e9bb42c73624082343c932cbf64b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -95,7 +97,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &7419017478173222985
 BoxCollider2D:
@@ -233,6 +234,7 @@ MonoBehaviour:
   title:
   - "\u0412\u0430\u0436\u043A\u0438\u0439 \u043A\u0443\u043B\u0435\u043C\u0435\u0442"
   - Heavy Machinegun
+  - "\u0422\u044F\u0436\u0451\u043B\u044B\u0439 \u041F\u0443\u043B\u0435\u043C\u0451\u0442"
   descr:
   - "\u0414\u0443\u043C\u0430\u0454\u0442\u0435, \u043A\u0440\u0430\u0449\u0435 \u0441\u0442\u0440\u0456\u043B\u044F\u0442\u0438
     \u0440\u0456\u0434\u0448\u0435, \u0430\u043B\u0435 \u0441\u0438\u043B\u044C\u043D\u0456\u0448\u0435?
@@ -247,6 +249,13 @@ MonoBehaviour:
 
 
     Note: Has armor penetration.'
+  - "\u0421\u0447\u0438\u0442\u0430\u0435\u0442\u0435, \u0447\u0442\u043E \u043B\u0443\u0447\u0448\u0435
+    \u0441\u0442\u0440\u0435\u043B\u044F\u0442\u044C \u043F\u043E\u0440\u0435\u0436\u0435,
+    \u0434\u0430 \u043F\u043E\u0441\u0438\u043B\u044C\u043D\u0435\u0435? \u0422\u043E\u0433\u0434\u0430
+    \u044D\u0442\u043E\u0442 \u043F\u0443\u043B\u0435\u043C\u0451\u0442 \u2013 \u0432\u0430\u0448
+    \u0432\u044B\u0431\u043E\u0440!\r\n\r\n{0}\r\n\r\n\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435:
+    \u0418\u043C\u0435\u0435\u0442 \u043F\u0440\u043E\u0431\u0438\u0442\u0438\u0435
+    \u0431\u0440\u043E\u043D\u0438."
 --- !u!82 &5876182615607050585
 AudioSource:
   m_ObjectHideFlags: 0
@@ -378,6 +387,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7141219469064499860
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -423,6 +433,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
+  m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0.39215687}
   m_FlipX: 0
@@ -432,7 +443,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &6929838061885139591
 GameObject:
@@ -469,6 +479,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3231648334760175879
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -514,6 +525,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 4
+  m_MaskInteraction: 0
   m_Sprite: {fileID: 2848572353083364888, guid: a2f2e9bb42c73624082343c932cbf64b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -523,7 +535,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &7975902334065446316
 PrefabInstance:
