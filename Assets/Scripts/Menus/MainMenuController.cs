@@ -151,32 +151,18 @@ public class MainMenuController : MonoBehaviour
         StartCoroutine(Load(1, darkness));
     }
 
-    public void OnSubMenu(GameObject button)
+    public void OnSubMenu(GameObject toOpen)
     {
-        GameObject toShow;
-        string txt = button.name;
-        switch(txt)
+        toOpen.SetActive(!toOpen.activeSelf);
+        foreach (var submenu in submenus)
         {
-            case "SaveButton":
-                toShow = submenus[0];
-                break;
-            case "StatsButton":
-                toShow = submenus[1];
-                break;
-            case "SettingsButton":
-                toShow = submenus[2];
-                break;
-            default: toShow = submenus[0]; break;
+            if (submenu != toOpen)
+                submenu.SetActive(false);
         }
-        foreach(var btn in buttons)
-            btn.interactable = true;
-        button.GetComponent<Button>().interactable = false;
-        SetUpContinue();
-        for (int i = 0; i < infoCanvas.transform.childCount; i++)
+        /*for (int i = 0; i < infoCanvas.transform.childCount; i++)
         {
             infoCanvas.transform.GetChild(i).gameObject.SetActive(false);
-        }
-        toShow.SetActive(true);
+        }*/
     }
 
     public void OnErase(string path)
