@@ -239,9 +239,8 @@ public class MainMenuController : MonoBehaviour
         }
         dropdowns[1].captionText.text = d[dropdowns[1].value].GetLocalizedString();
         var sliders = submenus[2].GetComponentsInChildren<Slider>();
-        GameController.SaveSettings(new GameSettings(dropdowns[0].value, sliders[0].value, sliders[1].value, sliders[2].value,sliders[3].value, sliders[4].value, dropdowns[1].value, GameController.SaveGame));
+        GameController.SaveSettings(new GameSettings(dropdowns[0].value, sliders[0].value, GameController.Volume, GameController.MusicVolume, GameController.SoundVolume, GameController.EnvironmentVolume, dropdowns[1].value, GameController.SaveGame));
         brightness.color = new Color(0, 0, 0, 1 - GameController.Brightness);
-        GameController.LoadVolume();
     }
     public static IEnumerator Load(int n, Image darkness)
     {
