@@ -234,6 +234,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &7991360323520359232
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -279,6 +280,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
+  m_MaskInteraction: 0
   m_Sprite: {fileID: -6843099253867576673, guid: 724a07e9a361efa49a3f48c624d502cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -288,7 +290,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!114 &1488608793813831616
 MonoBehaviour:
@@ -334,6 +335,21 @@ MonoBehaviour:
     \u0444\u0430\u0441\u0442\u0444\u0443\u0434.\r\n\n{0}\n\r\n\u041F\u0440\u0438\u043C\u0456\u0442\u043A\u0430:
     \u041C\u0430\u0454 \u043E\u043F\u0456\u0440 \u0443\u0440\u043E\u043D\u0443, \u0445\u043E\u0447\u0430
     \u0439 \u043D\u0435\u0432\u0435\u043B\u0438\u043A\u0438\u0439."
+  - 'A regular zombie with a strong love of fast food.
+
+    
+
+    {0}
+
+    
+
+    Note:
+    Has damage resistance, albeit slight.'
+  - "\u041E\u0431\u044B\u0447\u043D\u044B\u0439 \u0437\u043E\u043C\u0431\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+    \u043E\u0447\u0435\u043D\u044C \u0441\u0438\u043B\u044C\u043D\u043E \u043B\u044E\u0431\u0438\u043B
+    \u0444\u0430\u0441\u0442\u0444\u0443\u0434.\r\n\r\n{0}\r\n\r\n\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435:
+    \u0418\u043C\u0435\u0435\u0442 \u0441\u043E\u043F\u0440\u043E\u0442\u0438\u0432\u043B\u0435\u043D\u0438\u0435
+    \u0443\u0440\u043E\u043D\u0443, \u0445\u043E\u0442\u044F \u0438 \u043D\u0435\u0431\u043E\u043B\u044C\u0448\u043E\u0435."
   title:
   - "\u0422\u043E\u0432\u0441\u0442\u044F\u043A"
   - Fatman
@@ -536,6 +552,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0

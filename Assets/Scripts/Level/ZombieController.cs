@@ -30,23 +30,23 @@ public class ZombieController : MoveEntityController
     {
         if(speed < 15)
         {
-            return new string[] { "Повiльна", "Slow" }[GameController.Language];
+            return new string[] { "Повiльна", "Slow", "Медленная" }[GameController.Language];
         }
         else if(speed < 20)
         {
-            return new string[] { "Сповiльнена", "Semi-Slow" }[GameController.Language];
+            return new string[] { "Сповiльнена", "Semi-Slow", "Замедленная" }[GameController.Language];
         }
         else if( speed < 22)
         {
-            return new string[] { "Нормальна", "Normal" }[GameController.Language];
+            return new string[] { "Нормальна", "Normal", "Нормальная" }[GameController.Language];
         }
         else if(speed < 26)
         {
-            return new string[] { "Прискорена", "Semi-Fast" }[GameController.Language];
+            return new string[] { "Прискорена", "Semi-Fast", "Ускоренная" }[GameController.Language];
         }
         else
         {
-            return new string[] { "Швидка", "Fast" }[GameController.Language];
+            return new string[] { "Швидка", "Fast", "Быстрая" }[GameController.Language];
         }
     }
     [SerializeField] string[] title;

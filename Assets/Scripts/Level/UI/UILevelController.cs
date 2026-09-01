@@ -248,12 +248,12 @@ public class UILevelController : MonoBehaviour
             sound.PlayOneShot(winSound);
             stars.fillAmount = XP / GameController.LevelsGoal[levelId];
 
-            winLose[0].text = $"{(GameController.Language == 0 ? "Успiх!" : GameController.Language == 1 ? "You Won!" : "")}";
+            winLose[0].text = $"{(GameController.Language == 0 ? "Успiх!" : GameController.Language == 1 ? "You Won!" : "Успех!")}";
             winLose[1].text = $"{XP} XP";
-            winLose[2].text = $"{(GameController.Language == 0 ? "Шкоди завдано" : GameController.Language == 1 ? "Damage Done" : "")}: {level.AllDamage}";
-            winLose[3].text = $"{(GameController.Language == 0 ? "Зомбi вбито" : GameController.Language == 1 ? "Zombies Killed" : "")}: {level.AllKills}";
-            winLose[4].text = $"{(GameController.Language == 0 ? "Грошей отримано" : GameController.Language == 1 ? "Money Gained" : "")}: {level.AllMoneyGained}";
-            winLose[5].text = $"{(GameController.Language == 0 ? "Грошей витрачено" : GameController.Language == 1 ? "Money Spend" : "")}: {level.AllMoneySpend}";
+            winLose[2].text = $"{(GameController.Language == 0 ? "Шкоди завдано" : GameController.Language == 1 ? "Damage Done" : "Урона нанесено")}: {level.AllDamage}";
+            winLose[3].text = $"{(GameController.Language == 0 ? "Зомбi вбито" : GameController.Language == 1 ? "Zombies Killed" : "Зомби убито")}: {level.AllKills}";
+            winLose[4].text = $"{(GameController.Language == 0 ? "Грошей отримано" : GameController.Language == 1 ? "Money Gained" : "Денег получено")}: {level.AllMoneyGained}";
+            winLose[5].text = $"{(GameController.Language == 0 ? "Грошей витрачено" : GameController.Language == 1 ? "Money Spend" : "Денег потрачено")}: {level.AllMoneySpend}";
             if (levelId == 4)
                 next.SetActive(false);
             GameController.Wins++;
@@ -264,9 +264,9 @@ public class UILevelController : MonoBehaviour
         else
         {
             sound.PlayOneShot(loseSound);
-            winLose[0].text = $"{(GameController.Language == 0 ? "Зомбі з'їли ваші мізки" : GameController.Language == 1 ? "Zombies ate your brains" : "")}...";
+            winLose[0].text = $"{(GameController.Language == 0 ? "Зомбі з'їли ваші мізки" : GameController.Language == 1 ? "Zombies ate your brains" : "Зомби съели ваши мозги")}...";
             winLose[1].text = $"{XP} XP";
-            winLose[3].text = $"{(GameController.Language == 0 ? "Яка досада" : GameController.Language == 1 ? "That a shame" : "")}...";
+            winLose[3].text = $"{(GameController.Language == 0 ? "Яка досада" : GameController.Language == 1 ? "That a shame" : "Какая досада")}...";
             Time.timeScale = 0;
             next.SetActive(false);
             GameController.Loses++;

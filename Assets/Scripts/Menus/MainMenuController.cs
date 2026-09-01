@@ -151,32 +151,18 @@ public class MainMenuController : MonoBehaviour
         StartCoroutine(Load(1, darkness));
     }
 
-    public void OnSubMenu(GameObject button)
+    public void OnSubMenu(GameObject toOpen)
     {
-        GameObject toShow;
-        string txt = button.name;
-        switch(txt)
+        toOpen.SetActive(!toOpen.activeSelf);
+        foreach (var submenu in submenus)
         {
-            case "SaveButton":
-                toShow = submenus[0];
-                break;
-            case "StatsButton":
-                toShow = submenus[1];
-                break;
-            case "SettingsButton":
-                toShow = submenus[2];
-                break;
-            default: toShow = submenus[0]; break;
+            if (submenu != toOpen)
+                submenu.SetActive(false);
         }
-        foreach(var btn in buttons)
-            btn.interactable = true;
-        button.GetComponent<Button>().interactable = false;
-        SetUpContinue();
-        for (int i = 0; i < infoCanvas.transform.childCount; i++)
+        /*for (int i = 0; i < infoCanvas.transform.childCount; i++)
         {
             infoCanvas.transform.GetChild(i).gameObject.SetActive(false);
-        }
-        toShow.SetActive(true);
+        }*/
     }
 
     public void OnErase(string path)
@@ -253,9 +239,8 @@ public class MainMenuController : MonoBehaviour
         }
         dropdowns[1].captionText.text = d[dropdowns[1].value].GetLocalizedString();
         var sliders = submenus[2].GetComponentsInChildren<Slider>();
-        GameController.SaveSettings(new GameSettings(dropdowns[0].value, sliders[0].value, sliders[1].value, sliders[2].value,sliders[3].value, sliders[4].value, dropdowns[1].value, GameController.SaveGame));
+        GameController.SaveSettings(new GameSettings(dropdowns[0].value, sliders[0].value, GameController.Volume, GameController.MusicVolume, GameController.SoundVolume, GameController.EnvironmentVolume, dropdowns[1].value, GameController.SaveGame));
         brightness.color = new Color(0, 0, 0, 1 - GameController.Brightness);
-        GameController.LoadVolume();
     }
     public static IEnumerator Load(int n, Image darkness)
     {
